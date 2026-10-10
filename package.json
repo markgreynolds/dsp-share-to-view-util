@@ -1,14 +1,14 @@
 {
-  "name": "datasphere-util",
+  "name": "dsp-share-to-view-util",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Shares tables from a Datasphere source space to a target space and creates graphical view wrappers with Enable for Consumption.",
+  "main": "share-to-view.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["sap", "datasphere", "cli"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@sap/datasphere-cli": "^2026.20.0"
   }

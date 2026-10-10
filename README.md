@@ -1,5 +1,7 @@
 # Datasphere Share-to-View Utility
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 A Node.js command-line tool that automates two related SAP Datasphere operations in a single command:
 
 1. **Share tables** from a source space to a target space
