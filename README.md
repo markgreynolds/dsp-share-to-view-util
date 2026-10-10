@@ -141,7 +141,11 @@ Edit `secrets.json`:
 
 ### 3. Initialize the CLI Credential Cache
 
-Before the first run, the Datasphere CLI needs to download the service document for your tenant. This populates the local cache with the list of available API commands. Run this once:
+**This step is mandatory. The tool will not work without it.**
+
+The `secrets.json` file handles authentication at runtime, but it does not replace this step. The Datasphere CLI operates by downloading a service document from your tenant — a complete map of every available API endpoint and command. This map is stored in a local cache. Without it, the CLI has no knowledge of what commands exist, and the script will immediately fail with an error like `commands["objects local-tables list"] is not a function`, regardless of whether `secrets.json` is correctly configured.
+
+This command only needs to be run once per machine per tenant. If you ever clear the cache with `datasphere config cache clean`, you must run it again before the tool will work.
 
 ```bash
 datasphere config cache init \
@@ -151,7 +155,7 @@ datasphere config cache init \
   --authorization-flow client_credentials
 ```
 
-You only need to do this once per tenant, or again after running `datasphere config cache clean`.
+Use the same `client_id` and `client_secret` values from your `secrets.json`. The `--host` value is your `tenantUrl`.
 
 ---
 
