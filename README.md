@@ -115,8 +115,11 @@ In Datasphere, navigate to **System → Configuration → Security → OAuth Cli
 - **OAuth Client Name**: any descriptive name, e.g. `dsp-share-to-view-util`
 - **Purpose**: `API Access`
 - **Type**: `Technical User`
+- **Select Roles**: `Scoped Roles`
 
 > **Important:** The type must be set to **Technical User**. The other available types ("Interactive Usage" and "API Access" without Technical User) do not have the permissions required to perform space-level API operations such as sharing tables and creating views.
+
+![alt text](docs/images/OAuthClient-SelectRoles.png)
 
 After saving, Datasphere will display the generated **Client ID** and **Client Secret**. Copy both values — the secret is only shown once.
 
