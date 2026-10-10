@@ -13,6 +13,26 @@ The tool also supports a `--remove` mode that reverses the process: it deletes t
 
 ---
 
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+  - [Node.js and npm](#nodejs-and-npm)
+  - [SAP Datasphere CLI](#sap-datasphere-cli)
+  - [Git](#git)
+  - [Clone the Repository](#clone-the-repository)
+  - [Install Dependencies](#install-dependencies)
+- [Setup](#setup)
+  - [1. Create an OAuth Client in SAP Datasphere](#1-create-an-oauth-client-in-sap-datasphere)
+  - [2. Configure secrets.json](#2-configure-secretsjson)
+  - [3. Initialize the CLI Credential Cache](#3-initialize-the-cli-credential-cache)
+- [Running the Tool](#running-the-tool)
+  - [Options Reference](#options-reference)
+  - [Examples](#examples)
+  - [View Naming Convention](#view-naming-convention)
+  - [Troubleshooting](#troubleshooting)
+
+---
+
 ## Prerequisites
 
 ### Node.js and npm
