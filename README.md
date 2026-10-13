@@ -6,7 +6,7 @@
 
 ## USE OF THIS SOFTWARE IS AT YOUR OWN RISK AND HAS NO WARRANTY ON SUITABLILITY OR STABLITY
 
-## REFER TO LICENCE FOR DETAILS
+### REFER TO LICENCE FOR DETAILS
  
 A Node.js command-line tool that automates two related SAP Datasphere operations in a single command:
 
