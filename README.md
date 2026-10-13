@@ -2,6 +2,9 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
+** THIS IS NOT SAP DELIVERED SOFTWARE
+** USE OF THIS SOFTWARE IS AT YOUR OWN RISK AND HAS NO WARRANTY ON SUITABLILITY OR STABLITY
+ 
 A Node.js command-line tool that automates two related SAP Datasphere operations in a single command:
 
 1. **Share tables** from a source space to a target space
